@@ -55,7 +55,7 @@ type config struct {
 	start, end int
 	all        bool
 
-	fset          *token.FileSet
+	fset          *token.FileSet // fset will record all the token that used in the file
 	remove        []string
 	removeOptions []string
 
