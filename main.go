@@ -240,7 +240,7 @@ func (c *config) parse() (ast.Node, error) {
 // It depends on the line, struct or offset selection
 func (c *config) findSelection(node ast.Node) (int, int, error) {
 	if c.line != "" {
-		return c.lineSelection(node)
+		return c.lineSelection()
 	} else if c.offset != 0 {
 		return c.offsetSelection(node)
 	} else if c.structName != "" {
@@ -274,7 +274,7 @@ func (c *config) offsetSelection(file ast.Node) (int, int, error) {
 	return start, end, nil
 }
 
-func (c *config) lineSelection(file ast.Node) (int, int, error) {
+func (c *config) lineSelection() (int, int, error) {
 	var err error
 	splitted := strings.Split(c.line, ",")
 	start, err := strconv.Atoi(splitted[0])
