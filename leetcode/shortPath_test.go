@@ -12,7 +12,12 @@ func Test_shortestPathBinaryMatrix(t *testing.T) {
 		want int
 	}{
 		// TODO: Add test cases.
-		{"test1", args{[][]int{{0, 1}, {0, 1}}}, 2},
+		{"test1", args{[][]int{{0, 1}, {1, 0}}}, 2},
+		{"test want -1", args{[][]int{{1, 0, 0}, {1, 1, 0}, {1, 1, 0}}}, -1},
+		{"test want 4", args{[][]int{{0, 0, 0}, {1, 1, 0}, {1, 1, 0}}}, 4},
+		{"test want 3", args{[][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}}, 4},
+		{"test want 2", args{[][]int{{0, 1, 1, 0, 0, 0}, {0, 1, 0, 1, 1, 0}, {0, 1, 1, 0, 1, 0}, {0, 0, 0, 1, 1, 0}, {1, 1, 1, 1, 1, 0}, {1, 1, 1, 1, 1, 0}}}, 14},
+		{"test want 1", args{[][]int{{0, 1, 0, 1}, {0, 0, 1, 0}, {1, 1, 1, 0}, {1, 1, 1, 0}}}, 6},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
