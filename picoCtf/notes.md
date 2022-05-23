@@ -1,3 +1,10 @@
+<!--
+ * @Date: 2022-05-17 19:36:51
+ * @LastEditors: asderfree
+ * @LastEditTime: 2022-05-23 17:51:00
+ * @FilePath: \test_env\picoCtf\notes.md
+ * @Description:
+-->
 ## some useful linux command:
 1. binwalk: a tool for searching binary images for embedded files and executable code;
             一个检索二进制图像中嵌入的（隐藏的）文件与可执行代码的工具
@@ -8,4 +15,5 @@
 2. exiftool: read and write meta information in file:
             一个读取和写入图片元数据的工具
     ![exiftool](../imgs/exiftool.png)
-    
+
+3. upx: a tool to compress or expand executable files  
