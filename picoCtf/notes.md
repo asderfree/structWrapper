@@ -1,7 +1,7 @@
 <!--
  * @Date: 2022-05-17 19:36:51
  * @LastEditors: asderfree
- * @LastEditTime: 2022-05-23 17:51:00
+ * @LastEditTime: 2022-05-24 09:53:35
  * @FilePath: \test_env\picoCtf\notes.md
  * @Description:
 -->
@@ -17,3 +17,10 @@
     ![exiftool](../imgs/exiftool.png)
 
 3. upx: a tool to compress or expand executable files  
+
+4. tshark: a terminate sharkwine tool, dump and analyze network traffic:
+        tshark [ -i <capture interface>|- ] [ -f <capture filter> ] [ -2 ] [ -r <infile> ] [ -w <outfile>|- ] [ options ] [ <filter> ]
+        tshark -G [ <report type> ] [ --elastic-mapping-filter <protocols> ]
+    options:    
+        -2 perform a two-pass analysis, this causes TShark to buffer output until the entire first pass is done
+        -Y|--display-filter: cause the specified filter.使用它而不是 -R 来使用单遍分析进行过滤。如果进行两遍分析（参见-2).那么只有匹配读取过滤器（如果有）的数据包将根据该过滤器进行检查。
