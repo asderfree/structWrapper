@@ -30,14 +30,3 @@ func letterCombinations(digits string) []string {
 	}
 	return ans
 }
-
-var digmap = map[byte]string{'1': "", '2': "abc", '3': "def", '4': "ghi", '5': "jkl", '6': "mno", '7': "pqrs", '8': "tuv", '9': "wxyz"}
-var ans []string
-
-// bfsLetterCombinations will try to use bfs to resolve the problem
-func bfsLetterCombinations(digits string) []string {
-	for i := 0; i < len(digmap[digits[0]]); i++ {
-
-	}
-	return ans
-}

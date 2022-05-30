@@ -16,7 +16,7 @@ package leetcode
 func criticalConnections(n int, connections [][]int) [][]int {
 	var buildGraph func() [][]int
 	buildGraph = func() [][]int {
-		graph := make([][]int, n, n)
+		graph := make([][]int, n)
 		for _, v := range connections {
 			src, dest := v[0], v[1]
 			graph[src] = append(graph[src], dest)

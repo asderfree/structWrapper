@@ -13,7 +13,8 @@ package leetcode
 func fSolve(pos, left, l, k int, cur []int, result *[][]int) {
 	if left == 0 {
 		if len(cur) == k {
-			*result = append(*result, append(append([]int{}, cur...)))
+			resultTemp1 := append([]int{}, cur...)
+			*result = append(*result, resultTemp1)
 		}
 		return
 	}

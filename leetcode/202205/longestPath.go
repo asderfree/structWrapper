@@ -20,8 +20,7 @@ func longestIncreasingPath(matrix [][]int) int {
 		dp[r] = make([]int, 0, col)
 	}
 	dir := [][]int{{1, 0}, {0, 1}, {-1, 0}, {0, -1}}
-	var biggestLen func(x, y, z int)
-	biggestLen = func(x, y, z int) {
+	biggestLen := func(x, y, z int) {
 		if x < 0 || x >= row || y < 0 || y >= col {
 			return
 		}

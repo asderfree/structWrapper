@@ -13,7 +13,7 @@ func longestPalindrome(s string) string {
 	}
 	dp := make([][]int, n)
 	m, mi, mj := 0, 0, 0
-	for i, _ := range dp {
+	for i := range dp {
 		dp[i] = make([]int, n)
 		dp[i][i] = 1
 	}
