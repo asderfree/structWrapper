@@ -24,3 +24,6 @@
     options:    
         -2 perform a two-pass analysis, this causes TShark to buffer output until the entire first pass is done
         -Y|--display-filter: cause the specified filter.使用它而不是 -R 来使用单遍分析进行过滤。如果进行两遍分析（参见-2).那么只有匹配读取过滤器（如果有）的数据包将根据该过滤器进行检查。
+
+5. ar：create modify and extract from archives
+     Usage: ar [--plugin name] [-X32_64] [-]p[mod[relpos][count]archive[member...]
