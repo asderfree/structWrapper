@@ -1,3 +1,3 @@
-module structWrapper/designpattern/createPattern/factory/goImple
+module factory
 
 go 1.15
