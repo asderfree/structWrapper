@@ -8,7 +8,7 @@ Makefile:8: *** missing separator.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 03 00:07:56 2022
+# Make data base, printed on Mon Jun 06 00:49:37 2022
 
 # Variables
 
@@ -61,7 +61,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2ef252f1-795a-471c-a664-16f7158c2552-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a250c149-8262-4cfc-bc06-59d7c02c62c8-sock
 # environment
 VSCODE_CWD = D:\soft\Vscode
 # environment
@@ -91,7 +91,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_15712_JDWQFIOJMOWXDSOK
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8404_SFJLAVNSSEZALNGX
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -203,7 +203,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 25
 # environment
-VSCODE_PID = 15712
+VSCODE_PID = 8404
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-6F72BU1
 # variable set hash-table stats:
@@ -273,6 +273,6 @@ subdirs: designpattern/createPattern/factory
 # strcache performance: lookups = 29 / hit rate = 31%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Fri Jun 03 00:07:56 2022
+# Finished Make data base on Mon Jun 06 00:49:37 2022
 
  
