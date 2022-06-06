@@ -12,7 +12,6 @@ import (
 	"go/parser"
 	"go/printer"
 	"go/token"
-	"golang.org/x/tools/go/buildutil"
 	"io"
 	"io/ioutil"
 	"os"
@@ -22,6 +21,8 @@ import (
 	"test_env/camelcase"
 	"test_env/stag"
 	"unicode"
+
+	"golang.org/x/tools/go/buildutil"
 )
 
 // https://github.com/fatih/gomodifytags/blob/main/main.go

@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'd:/workbench/go/src/structWrapper'
+make.exe: Leaving directory 'd:/workbench/go/src/structWrapper'
+ 
+Makefile:8: *** missing separator.  Stop.
+
