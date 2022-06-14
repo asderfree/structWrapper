@@ -78,3 +78,24 @@ func countSubarrays(nums []int, k int64) int64 {
 	}
 	return ret
 }
+
+func calculateTax(brackets [][]int, income int) float64 {
+	ret, fincome := float64(0), float64(income)
+	for i, bracket := range brackets {
+		if fincome > float64(bracket[0]) {
+			if i == 0 {
+				ret = ret + float64(bracket[0])*float64(bracket[1])
+			} else {
+				ret = ret + float64(bracket[0]-brackets[i-1][0])*float64(bracket[1])
+			}
+		} else {
+			if i == 0 {
+				ret = ret + fincome*float64(bracket[1])
+			} else {
+				ret = ret + (fincome-float64(brackets[i-1][0]))*float64(bracket[1])
+			}
+			break
+		}
+	}
+	return ret / 100
+}
