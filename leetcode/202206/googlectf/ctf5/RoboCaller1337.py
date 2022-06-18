@@ -12,6 +12,8 @@ def generateRandomNumbers():
     arr = []
     for i in range(624):
         arr.append(formatNumber(random.getrandbits(32) + (1<<31)))
+        if i == 3:
+            print(arr) 
     return arr
 
 def encodeSecret(s):
