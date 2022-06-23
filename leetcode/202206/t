@@ -1,0 +1,9 @@
+52037,52077,52077,52066,52046,52063,52081,52081,52085,52077,52080,52066
+
+
+https://capturetheflag.withgoogle.com/beginners-quest
+((A NOR !B)and((!C OR D) NOR (E OR !F))) and (
+    ((G NOR H) and (H XOR I)) and 
+    (I AND J)) = 1
+
+CTF{BCFIJ}
