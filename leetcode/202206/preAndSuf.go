@@ -43,9 +43,9 @@ func suf(word, suffix string) bool {
 	return true
 }
 
-func (this *WordFilter) F(prefix string, suffix string) int {
-	for i := this.n - 1; i >= 0; i-- {
-		if pre(this.words[i], prefix) && suf(this.words[i], suffix) {
+func (wf *WordFilter) F(prefix string, suffix string) int {
+	for i := wf.n - 1; i >= 0; i-- {
+		if pre(wf.words[i], prefix) && suf(wf.words[i], suffix) {
 			return i
 		}
 	}
