@@ -8,7 +8,7 @@ Makefile:8: *** missing separator.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 11 19:00:40 2022
+# Make data base, printed on Sat Jul 02 16:32:40 2022
 
 # Variables
 
@@ -41,7 +41,7 @@ SHELL := sh.exe
 # environment
 WINDIR = C:\WINDOWS
 # environment
-VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"42e84e0914b17800d483f69e299e1b00.zh-cn","_translationsConfigFile":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\42e84e0914b17800d483f69e299e1b00.zh-cn\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_translationsConfigFile":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\33028\\AppData\\Roaming\\Code\\clp\\bbca1a7059cee8a1b93da8947fee1c4f.zh-cn\\corrupted.info","_languagePackSupport":true}
 # environment
 VBOX_MSI_INSTALL_PATH = D:\soft\VirtualBox\
 # environment
@@ -63,7 +63,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3badfcd8-c205-476a-83aa-fc5465e0bf18-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c6afdc92-a281-4d6d-ad2f-d84e5688eea0-sock
 # environment
 VSCODE_CWD = D:\soft\Vscode
 # environment
@@ -71,7 +71,7 @@ GOPROXY = https://goproxy.cn,direct
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = D:\soft\go_bin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\soft\Git\cmd;C:\Program Files\dotnet\;D:\soft\mingw\mingw64\bin;C:\Users\33028\AppData\Local\Microsoft\WindowsApps;C:\Users\33028\go\bin;C:\Users\33028\.dotnet\tools
+PATH = D:\soft\go_bin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\soft\Git\cmd;C:\Program Files\dotnet\;D:\soft\mingw\mingw64\bin;D:\soft\anaconda;D:\soft\anaconda\Scripts;D:\soft\anaconda\Library\bin;D:\soft\anaconda\Library\mingw-w64\bin;D:\soft\Vscode\bin;C:\Users\33028\AppData\Local\Microsoft\WindowsApps;C:\Users\33028\go\bin;C:\Users\33028\.dotnet\tools;
 # environment
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # environment
@@ -93,7 +93,7 @@ ELECTRON_RUN_AS_NODE = 1
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16972_KSOQFSDMCWUULLJC
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11340_EGAOLYVEXBZWPCKM
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -113,7 +113,7 @@ PUBLIC = C:\Users\Public
 # environment
 GOMODCACHE = D:\workbench\go\pkg\mod
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\33028\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+VSCODE_CODE_CACHE_PATH = C:\Users\33028\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -157,7 +157,7 @@ PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
 # environment
 OS = Windows_NT
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\17a4b2d962f0c2a38223abe5fb1782bb-1.67.2-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\17a4b2d962f0c2a38223abe5fb1782bb-1.68.1-main-sock
 # environment
 HOMEPATH = \Users\33028
 # environment
@@ -207,7 +207,7 @@ PROCESSOR_LEVEL = 25
 # environment
 FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
-VSCODE_PID = 16972
+VSCODE_PID = 11340
 # environment
 USERDOMAIN_ROAMINGPROFILE = DESKTOP-6F72BU1
 # variable set hash-table stats:
@@ -219,9 +219,9 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-6F72BU1
 
 # Directories
 
-# . (key d:/workbench/go/src/structWrapper, mtime 1654181714): 14 files, no impossibilities.
+# . (key d:/workbench/go/src/structWrapper, mtime 1656225786): 15 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -271,12 +271,12 @@ subdirs: designpattern/createPattern/factory
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 177 B / avg = 8 B
-# current buf: size = 8162 B / used = 177 B / count = 20 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 21 / storage = 181 B / avg = 8 B
+# current buf: size = 8162 B / used = 181 B / count = 21 / avg = 8 B
 
-# strcache performance: lookups = 29 / hit rate = 31%
+# strcache performance: lookups = 30 / hit rate = 30%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=1/29=3%
-# Finished Make data base on Sat Jun 11 19:00:40 2022
+# Load=21/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Sat Jul 02 16:32:40 2022
 
  
