@@ -21,3 +21,9 @@
 
 # Go workspace file
 go.work
+
+# Some other you need to delete
+*.o
+*.tar
+*.gz
+*.elf
