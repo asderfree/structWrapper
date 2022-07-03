@@ -27,3 +27,11 @@ go.work
 *.tar
 *.gz
 *.elf
+
+# some special files
+control_flow
+example
+functions32
+functions64
+variables32
+variables64
